@@ -205,7 +205,20 @@ ul {
     margin: 0 auto;
     .features-row {
         display: flex;
-        gap: 30px;
+        gap: 50px;
+        .box {
+            padding: 2rem 0;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+            button {
+                margin: 2rem 0;
+            }
+        }
     }
 }
 
